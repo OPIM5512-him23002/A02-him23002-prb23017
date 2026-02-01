@@ -28,3 +28,5 @@ mlp = MLPRegressor(random_state=42,
                    validation_fraction=0.2,
                    early_stopping=True) 
 mlp.fit(X_train_scaled, y_train)
+y_pred_train = mlp.predict(X_train_scaled)
+y_pred_test = mlp.predict(X_test_scaled)
