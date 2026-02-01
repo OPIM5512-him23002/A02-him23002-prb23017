@@ -44,7 +44,7 @@ def scatter_with_reference(y_true, y_pred, title, filename):
     plt.title(title)
     plt.tight_layout()
     plt.savefig(filename, dpi=200)
-    plt.show()
+    
 
 scatter_with_reference(y_train, y_pred_train, "Predicted vs Actual — Train", "figures/pred_vs_actual_train.png")
 scatter_with_reference(y_test,  y_pred_test,  "Predicted vs Actual — Test", "figures/pred_vs_actual_test.png")
