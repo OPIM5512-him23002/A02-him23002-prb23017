@@ -6,7 +6,7 @@ This project was completed by two group members using GitHub branches and pull r
 
 - Clone the repository using GitHub Desktop
 - Install required packages in the repository directory:
-- - Run the code:
+-  Run the code : python src/code.py
 
 ## Outputs
 
