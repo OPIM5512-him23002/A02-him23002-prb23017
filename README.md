@@ -5,7 +5,7 @@ This project was completed by two group members using GitHub branches and pull r
 ## How to Run
 
 - Clone the repository using GitHub Desktop
-- Install required packages in the repository directory:
+- Install required packages in the repository directory: pip install requirements.txt
 -  Run the code : python src/code.py
 
 ## Outputs
