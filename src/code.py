@@ -32,6 +32,7 @@ y_pred_train = mlp.predict(X_train_scaled)
 y_pred_test = mlp.predict(X_test_scaled)
 
 import numpy as np
+import matplotlib.pyplot as plt
 def scatter_with_reference(y_true, y_pred, title, filename):
     plt.figure(figsize=(6,6))
     plt.scatter(y_true, y_pred, alpha=0.3, s=10)
